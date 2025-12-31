@@ -57,14 +57,14 @@ export default function CompanyOverview() {
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            className="inline-block px-4 py-1 border border-blue-400/30 rounded-full bg-blue-500/10 text-blue-400 text-sm font-bold mb-6"
+            className="inline-block px-6 py-1 border border-blue-400/30 rounded-full bg-blue-500/10 text-blue-400 text-sm font-bold mb-6"
           >
             OUR JOURNEY SINCE 2010
           </motion.div>
-          <h1 className="text-6xl md:text-8xl font-black text-white mb-8 tracking-tighter">
+          <h1 className="text-5xl md:text-6xl font-black text-white mb-8 tracking-tighter">
             We Build <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Resilience.</span>
           </h1>
-          <p className="text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-md text-slate-400 max-w-2xl mx-auto leading-relaxed">
             Vestigo fakt insurance nathi, pan tamara business na growth mate nu ek safety shield che. 
             We turn uncertainty into opportunity.
           </p>

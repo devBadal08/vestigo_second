@@ -77,7 +77,7 @@ export default function HomePage() {
               </span>
             </h1>
             
-            <p className="text-xl text-slate-300 mb-10 leading-relaxed max-w-lg">
+            <p className="text-md text-slate-300 mb-10 leading-relaxed max-w-lg">
               Beyond just insurance—we provide a digital-first safety net for forward-thinking enterprises.
             </p>
             
@@ -137,11 +137,11 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row gap-20 items-center">
             <div className="lg:w-1/2">
-              <h2 className="text-5xl font-bold text-slate-900 mb-8 tracking-tight">
+              <h2 className="text-4xl font-bold text-slate-900 mb-8 tracking-tight">
                 Empowering Businesses <br />
                 <span className="text-blue-600 underline decoration-blue-200 underline-offset-8">Since 2010</span>
               </h2>
-              <p className="text-lg text-slate-600 mb-10 leading-relaxed">
+              <p className="text-md text-slate-600 mb-10 leading-relaxed">
                 Vestigo is not just about policies; it s about partnership. We integrate advanced data analytics with 15+ years of human expertise to ensure your growth is never interrupted.
               </p>
               
@@ -169,8 +169,12 @@ export default function HomePage() {
             <div className="lg:w-1/2 relative">
                <div className="grid grid-cols-1 gap-6">
                   <motion.div 
-                    whileHover={{ scale: 1.02 }}
-                    className="p-10 bg-slate-900 rounded-[2.5rem] text-white relative overflow-hidden"
+                    whileHover={{ x: 20 }}
+                    className="p-10 rounded-[3rem] text-white relative overflow-hidden group
+                    bg-gradient-to-r
+                    from-[#0B1440]
+                    via-[#243B8F]
+                    to-[#C9CEDF]"
                   >
                     <h3 className="text-2xl font-bold mb-4 relative z-10">Our Mission</h3>
                     <p className="text-slate-400 text-lg relative z-10">
@@ -180,8 +184,12 @@ export default function HomePage() {
                   </motion.div>
 
                   <motion.div 
-                    whileHover={{ scale: 1.02 }}
-                    className="p-10 bg-blue-600 rounded-[2.5rem] text-white relative overflow-hidden"
+                    whileHover={{ x: 20 }}
+                    className="p-10 rounded-[3rem] text-white relative overflow-hidden group
+                    bg-gradient-to-r
+                    from-[#0B1440]
+                    via-[#243B8F]
+                    to-[#C9CEDF]"
                   >
                     <h3 className="text-2xl font-bold mb-4 relative z-10">Our Vision</h3>
                     <p className="text-blue-100 text-lg relative z-10">
@@ -258,10 +266,10 @@ export default function HomePage() {
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-indigo-600/20 rounded-full blur-[100px] -ml-48 -mb-48" />
           
           <div className="relative z-10">
-            <h2 className="text-4xl md:text-7xl font-bold text-white mb-10 tracking-tighter">Ready to secure <br />your journey?</h2>
+            <h2 className="text-4xl md:text-6xl font-bold text-white mb-10 tracking-tighter">Ready to secure <br />your journey?</h2>
             <Link
               href="/contacts"
-              className="inline-flex items-center gap-3 bg-white text-slate-900 px-12 py-6 rounded-2xl font-bold text-xl shadow-2xl hover:scale-105 transition-all"
+              className="inline-flex items-center gap-3 bg-white text-slate-900 px-12 py-6 rounded-2xl font-bold text-md shadow-2xl hover:scale-105 transition-all"
             >
               Contact Our Experts <ArrowRight />
             </Link>

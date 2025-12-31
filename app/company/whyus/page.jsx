@@ -50,10 +50,10 @@ export default function WhyUs() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
               What Sets <span className="text-blue-600">Vestigo</span> Apart?
             </h1>
-            <p className="text-xl text-gray-500 max-w-2xl mx-auto">
+            <p className="text-md text-gray-500 max-w-2xl mx-auto">
               Ame fakt tamara insurance provider nathi, ame tamara Safety Architects chie. 
               Jane kem businesses Vestigo ne pasand kare che.
             </p>

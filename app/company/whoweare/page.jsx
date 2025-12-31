@@ -69,12 +69,12 @@ export default function WhoWeAre() {
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl md:text-7xl font-bold mt-4 mb-6 tracking-tight"
+            className="text-5xl md:text-6xl font-bold mt-4 mb-6 tracking-tight"
           >
             We are <span className="text-blue-500">Vestigo</span>
           </motion.h1>
 
-          <p className="text-xl text-[#C7D2FE] max-w-2xl mx-auto leading-relaxed">
+          <p className="text-md text-[#C7D2FE] max-w-2xl mx-auto leading-relaxed">
             A dedicated team of risk strategists, tech innovators, and insurance experts
             working together to build a safer tomorrow for your business.
           </p>
@@ -102,7 +102,7 @@ export default function WhoWeAre() {
             whileInView={{ opacity: 1, x: 0 }}
           >
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Our Story & Purpose</h2>
-            <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
+            <div className="space-y-6 text-gray-600 text-md leading-relaxed">
               <p>
                 Vestigo ni sharuat ek simple vichar sathe thai hati: Insurance complex kem hovun joie  
                 Ame technology ane expertise ne bhegu kari ne ek evo platform banavyo che jya 

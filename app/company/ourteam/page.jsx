@@ -76,10 +76,10 @@ export default function OurTeam() {
             transition={{ duration: 0.6 }}
           >
             <span className="text-blue-600 font-bold tracking-wider uppercase text-sm">Meet the Experts</span>
-            <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mt-4 mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mt-4 mb-6">
               The Faces Behind <span className="text-blue-600">Vestigo</span>
             </h1>
-            <p className="text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-md text-gray-500 max-w-2xl mx-auto leading-relaxed">
               Amari team ma che tajagna professionals je tamara sapnao ane business ne secure karva mate cutibaddh che.
             </p>
           </motion.div>
