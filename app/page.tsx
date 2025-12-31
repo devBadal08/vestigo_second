@@ -38,7 +38,7 @@ export default function HomePage() {
       <section className="relative h-[90vh] min-h-[700px] flex items-center text-white overflow-hidden">
         {/* Background Video/Animation Overlay */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0b02bb] via-[#0F172A]/80 to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0F172A] via-[#0F172A]/80 to-transparent z-10" />
           {/* Replace this URL with your actual abstract video file */}
           <video 
             autoPlay 
@@ -70,9 +70,12 @@ export default function HomePage() {
               Modern Risk Protection
             </motion.div>
             
-            <h1 className="text-6xl md:text-8xl font-bold leading-[1.05] mb-8 tracking-tighter">
+            <h1 className="text-6xl md:text-8xl font-bold leading-[1.05] mb-8 tracking-tighter text-white">
               Secure Your <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r 
+                from-[#E8D534] 
+                via-[#F2E86D] 
+                to-[#1C2A7D]">
                 Legacy.
               </span>
             </h1>

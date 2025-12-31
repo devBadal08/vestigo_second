@@ -143,7 +143,17 @@ export default function OurTeam() {
 
       {/* --- RECRUITMENT CTA --- */}
       <section className="mt-32 text-center px-6">
-        <div className="max-w-4xl mx-auto bg-slate-900 p-12 rounded-[3rem] text-white">
+        <div
+            className="
+              max-w-4xl mx-auto
+              p-12 rounded-[3rem] text-white
+              bg-gradient-to-r
+              from-[#0B1440]
+              via-[#243B8F]
+              to-[#C9CEDF]
+              relative overflow-hidden
+            "
+          >
           <h2 className="text-3xl font-bold mb-6">Want to join our mission?</h2>
           <p className="text-slate-400 mb-10">
             Ame hamesha utshahi ane talented loko ni shodhkhol ma hoiye chie.

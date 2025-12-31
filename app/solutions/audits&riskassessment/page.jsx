@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Search, BarChart, ClipboardCheck } from 'lucide-react'; // icons માટે (જો lucide-react ન હોય તો કાઢી નાખવા)
+import { ShieldCheck, Search, BarChart, ClipboardCheck } from 'lucide-react';
 
 const AuditsRiskAssessment = () => {
   const features = [
@@ -28,7 +28,17 @@ const AuditsRiskAssessment = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-[#0f172a] text-white py-20 px-6 text-center">
+      <section
+        className="
+          bg-gradient-to-r
+          from-[#0B1440]
+          via-[#243B8F]
+          to-[#C9CEDF]
+          text-white
+          py-24
+          px-6
+          text-center
+        ">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Audits & Risk Assessment

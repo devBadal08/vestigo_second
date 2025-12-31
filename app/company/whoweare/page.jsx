@@ -32,25 +32,50 @@ export default function WhoWeAre() {
   return (
     <main className="bg-white">
       {/* --- HERO SECTION --- */}
-      <section className="relative pt-20 pb-16 bg-slate-950 text-white overflow-hidden">
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-blue-600/10 blur-3xl rounded-full translate-x-1/2"></div>
-        <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
-          <motion.span 
+      <section className="relative pt-28 pb-24 text-white overflow-hidden">
+        {/* Background layer */}
+        <div className="absolute inset-0 z-0">
+          {/* Left brand glow */}
+          <div
+            className="absolute -left-40 top-1/2 -translate-y-1/2
+            w-[700px] h-[700px]
+            bg-[#1C2A7D]/25
+            rounded-full blur-[180px]"
+          />
+
+          {/* Main gradient */}
+          <div
+            className="absolute inset-0 z-10 bg-gradient-to-r
+            from-[#0E1A4D]
+            via-[#1C2A7D]/85
+            to-[#1C2A7D]/25"
+          />
+        </div>
+
+        {/* Content */}
+        <div className="max-w-7xl mx-auto px-6 relative z-20 text-center">
+          <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-blue-400 font-semibold tracking-widest uppercase text-sm"
+            className="inline-flex items-center gap-2 px-4 py-1.5 mb-6
+            text-sm font-semibold tracking-widest uppercase
+            bg-[#1C2A7D]/25
+            border border-[#1C2A7D]/40
+            rounded-full text-[#C7D2FE]"
           >
             Since 2010
           </motion.span>
-          <motion.h1 
+
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl md:text-7xl font-bold mt-4 mb-6"
+            className="text-5xl md:text-7xl font-bold mt-4 mb-6 tracking-tight"
           >
             We are <span className="text-blue-500">Vestigo</span>
           </motion.h1>
-          <p className="text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-            A dedicated team of risk strategists, tech innovators, and insurance experts 
+
+          <p className="text-xl text-[#C7D2FE] max-w-2xl mx-auto leading-relaxed">
+            A dedicated team of risk strategists, tech innovators, and insurance experts
             working together to build a safer tomorrow for your business.
           </p>
         </div>

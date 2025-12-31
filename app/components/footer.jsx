@@ -22,7 +22,7 @@ export default function Footer() {
           {/* 1. Logo & About (1 Column) */}
           <div className="lg:col-span-1 space-y-6">
             <Image
-              src="/logo.svg"
+              src="/logo.jpg"
               alt="Vestigo Logo"
               width={120}
               height={35}

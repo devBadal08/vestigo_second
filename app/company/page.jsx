@@ -39,20 +39,19 @@ export default function CompanyOverview() {
     <main ref={containerRef} className="bg-white overflow-hidden">
       
       {/* 1. CINEMATIC HERO SECTION */}
-      <section className="relative h-[80vh] flex items-center justify-center overflow-hidden bg-[#0F172A]">
-        {/* Animated Background Blobs */}
-        <div className="absolute inset-0 z-0">
-          <motion.div 
-            animate={{ scale: [1, 1.2, 1], x: [0, 50, 0], y: [0, 30, 0] }}
-            transition={{ duration: 10, repeat: Infinity }}
-            className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-[100px]" 
-          />
+      <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+        {/* Brand Background */}
+        <div
+          className="absolute inset-0 z-0 bg-gradient-to-r
+          from-[#0B1440]
+          via-[#243B8F]
+          to-[#C9CEDF]"
+        />
           <motion.div 
             animate={{ scale: [1, 1.3, 1], x: [0, -50, 0], y: [0, -40, 0] }}
             transition={{ duration: 15, repeat: Infinity, delay: 1 }}
             className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-indigo-600/20 rounded-full blur-[100px]" 
           />
-        </div>
 
         <motion.div style={{ y, opacity }} className="relative z-10 text-center px-6">
           <motion.div
@@ -117,7 +116,7 @@ export default function CompanyOverview() {
               <span className="text-blue-600 italic font-serif">Every Ambition.</span>
             </h2>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              We started with a simple belief: that risk shouldn't stop progress. In the last 15 years, 
+              We started with a simple belief: that risk shouldn&apos;t stop progress. In the last 15 years, 
               we have evolved from a local consultancy to a technology-driven insurance powerhouse.
             </p>
             
@@ -136,27 +135,35 @@ export default function CompanyOverview() {
           <div className="grid grid-cols-1 gap-6">
             <motion.div 
               whileHover={{ x: 20 }}
-              className="p-10 bg-slate-900 rounded-[3rem] text-white relative overflow-hidden group"
+              className="p-10 rounded-[3rem] text-white relative overflow-hidden group
+              bg-gradient-to-r
+              from-[#0B1440]
+              via-[#243B8F]
+              to-[#C9CEDF]"
             >
               <Target className="absolute -right-8 -top-8 w-40 h-40 text-white/5 group-hover:text-blue-500/10 transition-colors duration-500" />
               <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                 <Target className="text-blue-400" /> Our Mission
               </h3>
-              <p className="text-slate-400 text-lg">
+              <p className="text-white/80 text-lg">
                 Protective future banavvu e amari priority che. Delivering excellence in every claim.
               </p>
             </motion.div>
 
             <motion.div 
               whileHover={{ x: 20 }}
-              className="p-10 bg-blue-600 rounded-[3rem] text-white relative overflow-hidden group"
+              className="p-10 rounded-[3rem] text-white relative overflow-hidden group
+              bg-gradient-to-r
+              from-[#0B1440]
+              via-[#243B8F]
+              to-[#C9CEDF]"
             >
               <Eye className="absolute -right-8 -top-8 w-40 h-40 text-white/10 group-hover:text-white/20 transition-colors duration-500" />
               <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
                 <Eye className="text-white" /> Our Vision
               </h3>
-              <p className="text-blue-100 text-lg">
-                Digital insurance ma global benchmark banvu. To be the world's most trusted partner.
+              <p className="text-white/85 text-lg">
+                Digital insurance ma global benchmark banvu. To be the world&apos;s most trusted partner.
               </p>
             </motion.div>
           </div>

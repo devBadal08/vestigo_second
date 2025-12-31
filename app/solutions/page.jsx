@@ -123,8 +123,8 @@ export default function Solutions() {
           </motion.h1>
           
           <p className="text-xl text-slate-500 max-w-2xl mx-auto mb-12 leading-relaxed">
-            We don't offer generic plans. We engineer insurance architectures 
-            specifically designed for your industry's DNA.
+            We don&apos;t offer generic plans. We engineer insurance architectures 
+            specifically designed for your industry&apos;s DNA.
           </p>
 
           {/* --- PILL FILTER --- */}
@@ -213,7 +213,19 @@ export default function Solutions() {
         <motion.div 
           whileInView={{ opacity: 1, scale: 1 }}
           initial={{ opacity: 0, scale: 0.95 }}
-          className="max-w-6xl mx-auto rounded-[4rem] bg-[#0F172A] p-12 md:p-24 text-center text-white relative overflow-hidden"
+          className="
+            max-w-6xl mx-auto
+            rounded-[4rem]
+            bg-gradient-to-r
+            from-[#0B1440]
+            via-[#243B8F]
+            to-[#C9CEDF]
+            p-12 md:p-24
+            text-center
+            text-white
+            relative
+            overflow-hidden
+          "
         >
           {/* Animated Background Elements */}
           <motion.div 
@@ -227,16 +239,16 @@ export default function Solutions() {
               <Layers className="text-blue-400" size={40} />
             </div>
             <h2 className="text-4xl md:text-6xl font-black mb-8 tracking-tighter">
-              Can't find a <span className="text-blue-400 italic font-serif">Perfect</span> Fit?
+              Can&apos;t find a <span className="text-blue-400 italic font-serif">Perfect</span> Fit?
             </h2>
             <p className="text-slate-400 text-lg mb-12 leading-relaxed">
-              Every business is a unique entity. If our standard suites don't match your specific risk profile, our underwriters will build a bespoke plan for you from scratch.
+              Every business is a unique entity. If our standard suites don&apos;t match your specific risk profile, our underwriters will build a bespoke plan for you from scratch.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-white text-slate-900 px-12 py-5 rounded-[2rem] font-black text-lg hover:scale-105 transition-all shadow-2xl">
                 Consult an Underwriter
               </button>
-              <button className="bg-white/5 border border-white/10 backdrop-blur-xl text-white px-12 py-5 rounded-[2rem] font-black text-lg hover:bg-white/10 transition-all">
+              <button className="bg-white/10 border border-white/20 backdrop-blur-xl text-white px-12 py-5 rounded-[2rem] font-black text-lg hover:bg-white/20 transition-all">
                 Download Brochure
               </button>
             </div>

@@ -17,7 +17,16 @@ export default function Partners() {
   return (
     <main className="min-h-screen bg-white">
       {/* --- HERO SECTION --- */}
-      <section className="pt-24 pb-12 bg-slate-50">
+      <section
+          className="
+            pt-24 pb-12
+            bg-gradient-to-r
+            from-[#0B1440]
+            via-[#243B8F]
+            to-[#C9CEDF]
+            text-white
+          "
+        >
         <div className="max-w-7xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -26,10 +35,11 @@ export default function Partners() {
           >
             <Handshake className="w-4 h-4" /> Trusted Ecosystem
           </motion.div>
-          <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
-            Our Strategic <span className="text-blue-600">Partners</span>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            Our Strategic Partners
           </h1>
-          <p className="text-xl text-gray-500 max-w-3xl mx-auto">
+
+          <p className="text-white/80 max-w-3xl mx-auto">
             Vestigo ma ame bharat ni top insurance companies sathe collab kariye chie, 
             jethi tamne best premium ane fast settlement mali shake.
           </p>
@@ -56,10 +66,21 @@ export default function Partners() {
             {duplicatedPartners.map((partner, idx) => (
               <div 
                 key={idx}
-                className="flex items-center justify-center min-w-[200px] h-32 px-8 rounded-2xl bg-slate-50 border border-slate-100 group hover:border-blue-200 transition-colors"
+                className="
+                  flex items-center justify-center
+                  min-w-[200px] h-32 px-8
+                  rounded-2xl
+                  bg-blue-50/60
+                  border border-blue-100/50
+                  backdrop-blur-sm
+                  group
+                  hover:bg-white
+                  hover:border-[#1C2A7D]/30
+                  transition-all
+                "
               >
                 {/* Replace this with <img src={...} /> for actual logos */}
-                <span className="text-xl font-bold text-slate-400 group-hover:text-blue-600 transition-colors tracking-tight">
+                <span className="text-xl font-bold text-slate-500 group-hover:text-[#1C2A7D] transition-colors tracking-tight">
                   {partner}
                 </span>
               </div>
@@ -105,7 +126,19 @@ export default function Partners() {
 
       {/* --- BECOME A PARTNER CTA --- */}
       <section className="pb-32 px-6">
-        <div className="max-w-5xl mx-auto bg-gradient-to-br from-blue-600 to-indigo-700 rounded-[3rem] p-12 text-center text-white">
+        <div
+          className="
+            max-w-5xl mx-auto
+            bg-gradient-to-r
+            from-[#0B1440]
+            via-[#243B8F]
+            to-[#C9CEDF]
+            rounded-[3rem]
+            p-12
+            text-center
+            text-white
+          "
+        >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Partner With Vestigo</h2>
           <p className="text-blue-100 text-lg mb-10 max-w-2xl mx-auto">
             Shu tame ek insurance provider cho ke fintech startup? 

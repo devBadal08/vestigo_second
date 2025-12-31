@@ -86,7 +86,16 @@ export default function WhyUs() {
       </section>
 
       {/* --- COMPARISON SECTION --- */}
-      <section className="bg-slate-900 py-24 rounded-[3rem] mx-6">
+      <section
+        className="
+          py-24 rounded-[3rem] mx-6
+          bg-gradient-to-r
+          from-[#0B1440]
+          via-[#243B8F]
+          to-[#C9CEDF]
+          relative overflow-hidden
+        "
+      >
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">The Vestigo Advantage</h2>
