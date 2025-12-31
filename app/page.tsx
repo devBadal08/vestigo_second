@@ -70,7 +70,7 @@ export default function HomePage() {
               Modern Risk Protection
             </motion.div>
             
-            <h1 className="text-6xl md:text-8xl font-bold leading-[1.05] mb-8 tracking-tighter">
+            <h1 className="text-5xl md:text-6xl font-bold leading-[1.05] mb-8 tracking-tighter">
               Secure Your <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
                 Legacy.
@@ -106,8 +106,8 @@ export default function HomePage() {
                  <Image
                   src="/logo.jpg" 
                   alt="Insurance Hero"
-                  width={500}
-                  height={600}
+                  width={400}
+                  height={500}
                   className="w-full h-auto object-cover"
                   priority
                 />
@@ -118,7 +118,7 @@ export default function HomePage() {
             <motion.div 
               animate={{ y: [0, -20, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -bottom-10 -left-10 bg-white p-6 rounded-3xl shadow-2xl flex items-center gap-4 z-20 border border-slate-100"
+              className="absolute -bottom-25 -left-10 bg-white p-6 rounded-3xl shadow-2xl flex items-center gap-4 z-20 border border-slate-100"
             >
               <div className="bg-blue-600 p-3 rounded-2xl">
                 <ShieldCheck className="text-white w-8 h-8" />
