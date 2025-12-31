@@ -12,15 +12,24 @@ const CommercialInsurance = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="bg-[#f8fafc] py-24 px-6">
+      <section
+        className="
+          py-24 px-6
+          bg-gradient-to-r
+          from-[#0B1440]
+          via-[#243B8F]
+          to-[#0B1440]
+          text-white
+        "
+      >
         <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-sm font-medium mb-6">
             <Zap size={16} /> Business Excellence
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Comprehensive <span className="text-blue-600">Commercial Insurance</span> Solutions
           </h1>
-          <p className="text-lg text-slate-600 max-w-3xl">
+          <p className="text-lg text-white/85 max-w-3xl">
             Vestigo aapke business ko har tarah ke risks se bachata hai. Chota startup ho ya badi enterprise, humare paas har scale ke liye customized insurance plans hain.
           </p>
         </div>
@@ -47,7 +56,21 @@ const CommercialInsurance = () => {
 
       {/* Trust Section / Why Us */}
       <section className="py-20 px-6 border-t border-slate-50">
-        <div className="max-w-4xl mx-auto bg-slate-900 rounded-3xl p-12 text-center text-white relative overflow-hidden">
+        <div
+          className="
+            max-w-4xl mx-auto
+            bg-gradient-to-r
+            from-[#0B1440]
+            via-[#243B8F]
+            to-[#0B1440]
+            rounded-3xl
+            p-12
+            text-center
+            text-white
+            relative
+            overflow-hidden
+          "
+        >
           <div className="relative z-10">
             <h2 className="text-3xl font-bold mb-6">Apne Business ko Aaj hi Secure Karein</h2>
             <p className="text-slate-400 mb-10">Hamare experts aapke business model ko samajh kar sabse sahi plan suggest karenge.</p>
